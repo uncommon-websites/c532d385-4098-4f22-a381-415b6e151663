@@ -1,53 +1,53 @@
 <script lang="ts">
   const projects = [
     {
-      client: "Red Bull",
-      desc: "A global platform built to Scale, Evolve, and Perform.",
-      bg: "bg-[#000c2d]",
+      client: "Revenue Operations",
+      desc: "Built scalable systems from chaotic spreadsheets to predictable growth.",
+      bg: "bg-gray-950",
       img: "", // Placeholder logic handled in template
       dark: true
     },
     {
-      client: "Volvo",
-      desc: "Redefining how people experience insurance.",
+      client: "Team Structure",
+      desc: "Designed org charts and hiring roadmaps for rapid scaling.",
       bg: "bg-gray-200",
-      img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800",
+      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
       dark: false
     },
     {
-      client: "The Organics",
-      desc: "Translating a refreshing identity into a bold platform.",
-      bg: "bg-[#8da356]",
-      img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800",
-      dark: false
+      client: "Process Automation",
+      desc: "Eliminated bottlenecks with workflow systems that save 20+ hours weekly.",
+      bg: "bg-primary-950",
+      img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+      dark: true
     },
     {
-      client: "Isar Aerospace",
-      desc: "Launching a brand journey into orbit.",
+      client: "Financial Planning",
+      desc: "Created budget models and KPI dashboards for investor-ready reporting.",
       bg: "bg-black",
       img: "",
       dark: true
     },
     {
-      client: "REWE",
-      desc: "Digital Convenience in your Pocket.",
+      client: "Go-to-Market Strategy",
+      desc: "Launched products with clear positioning and execution frameworks.",
       bg: "bg-[#f0f0f0]",
-      img: "https://images.unsplash.com/photo-1512428559087-560fa5ce7d87?auto=format&fit=crop&q=80&w=800",
+      img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800",
       dark: false,
-      full: true // Making REWE full width to align last two items
+      full: true
     },
     {
-      client: "Alpha Tauri",
-      desc: "Designing the interface of wearable intelligence.",
+      client: "Customer Success",
+      desc: "Built onboarding systems that increased retention by 40%.",
       bg: "bg-[#e0e0e0]",
-      img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=800",
+      img: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=800",
       dark: false
     },
     {
-      client: "Zalando",
-      desc: "Designing the Zalando E-Commerce Operating System.",
-      bg: "bg-[#d8c5f0]",
-      img: "https://images.unsplash.com/photo-1555421689-49263376da7a?auto=format&fit=crop&q=80&w=800",
+      client: "OKR Framework",
+      desc: "Implemented goal-setting systems that aligned teams and accelerated execution.",
+      bg: "bg-primary-100",
+      img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
       dark: false
     }
   ];
@@ -56,7 +56,7 @@
 <section class="px-6 md:px-12 py-24 bg-white">
   <div class="max-w-3xl mb-16">
     <h2 class="text-2xl md:text-3xl font-medium leading-tight">
-      <span class="font-bold">We orchestrate strategy, design, and technology</span> to create digital experiences that connect with millions and give you the edge that sets you apart.
+      <span class="font-bold">We build operational systems that scale</span> so you can focus on what matters—leading your company, not managing chaos.
     </h2>
   </div>
 

@@ -4,30 +4,30 @@
   const steps = [
     {
       id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      title: "Diagnose Operational Bottlenecks",
+      text: "We start by understanding where you're stuck. Through rapid assessment of your current operations, we identify the critical gaps preventing you from scaling—whether it's unclear processes, missing systems, or team misalignment.",
+      tags: ["Operational Audit", "Process Mapping", "Team Assessment", "System Review", "Bottleneck Analysis", "Priority Identification"],
       graphic: "lines"
     },
     {
       id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      title: "Design Scalable Systems",
+      text: "We don't just fix problems—we build systems that prevent them. Together, we design operational frameworks tailored to your stage and goals, from revenue operations to team structure to workflow automation.",
+      tags: ["System Architecture", "Process Design", "OKR Framework", "Org Structure", "Workflow Automation", "KPI Dashboard Design"],
       graphic: "curve"
     },
     {
       id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      title: "Implement & Embed",
+      text: "We roll up our sleeves and get it done. As your fractional COO, we embed directly into your operations—implementing systems, training your team, and ensuring adoption. No handoffs, no delays.",
+      tags: ["System Implementation", "Team Training", "Tool Setup", "Documentation", "Change Management", "Hands-on Execution"],
       graphic: "circle-top"
     },
     {
       id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      title: "Scale with Confidence",
+      text: "Once systems are in place, we help you maintain momentum. We monitor performance, iterate based on data, and ensure your operations evolve as you grow—so you can scale without breaking.",
+      tags: ["Performance Monitoring", "Continuous Improvement", "Team Coaching", "System Optimization", "Growth Planning", "Executive Support"],
       graphic: "circle-waves"
     }
   ];
@@ -63,7 +63,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-gray-950 text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->

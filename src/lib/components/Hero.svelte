@@ -1,21 +1,21 @@
 <script lang="ts">
-  // Logos would typically be imports, using text placeholders or SVGs for now
+  // Logos of YC-backed and startup ecosystem companies
   const logos = [
-    "Allianz",
-    "BMW",
-    "Lufthansa",
-    "Spotify",
-    "Red Bull"
+    "Y Combinator",
+    "Stripe",
+    "Airbnb",
+    "Notion",
+    "Figma"
   ];
 </script>
 
-<section class="relative min-h-screen flex flex-col justify-end pb-20 px-6 md:px-12 bg-gradient-to-b from-[#2a1b5e] via-[#d4a8a8] to-[#fdfbf7] text-[#1a1a1a]">
+<section class="relative min-h-screen flex flex-col justify-end pb-20 px-6 md:px-12 bg-gradient-to-b from-gray-950 via-gray-800 to-white text-[#1a1a1a]">
   <!-- Gradient overlay/background handling -->
-  <div class="absolute inset-0 z-[-1] bg-[linear-gradient(180deg,#2e2166_0%,#8c5e8f_40%,#e6b99c_70%,#fff_100%)]"></div>
+  <div class="absolute inset-0 z-[-1] bg-[linear-gradient(180deg,oklch(0.141_0.005_285.823)_0%,oklch(0.274_0.006_286.033)_40%,oklch(0.705_0.015_286.067)_70%,#fff_100%)]"></div>
 
   <div class="max-w-4xl mb-32 pt-40">
     <h1 class="text-3xl md:text-5xl font-medium leading-[1.15] tracking-tight">
-      Your 0 to 1 Partner for Digital Innovation. <span class="text-gray-500">Blending consultancy expertise with agency craft and creativity, we lead ambitious companies from Insight to Impact—fast.</span>
+      Stop firefighting. Start leading. <span class="text-gray-500">Vira delivers operational clarity for overwhelmed founders through fractional COO support and embedded systems—without the full-time overhead.</span>
     </h1>
   </div>
 
